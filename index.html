@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js" defer></script>
+    <title>Maurice Slutproject JavaScript</title>
+</head>
+
+<body>
+    <div id="formContainer">
+        <form>
+
+            <label for="imageSearchInput">Photo Search:</label>
+            <input type="text" id="imageSearchInput">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity">
+            <label for="size">Size:</label>
+            <select id="size">
+                <option value="n">Small</option>
+                <option value="z">Medium</option>
+                <option value="b">Large</option>
+            </select>
+            <label for="sort">Sort</label>
+            <select id="sort">
+                <option value="date-posted-desc">Latest Upload</option>
+                <option value="relevance">Relevance</option>
+                <option value="interestingness-desc">Interestingness</option>
+            </select>
+            <button>Search</button>
+        </form>
+
+    </div>
+    <div id="imgContainer"></div>
+</body>
+
+
+
+</html>
